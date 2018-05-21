@@ -11,4 +11,8 @@ It can be executed like this:
 
 The next script, `processFillList.py`, reorganizes this information with timestamps for milliqanOffline, and outputs `processedFillList2018.txt`
 
-The entire process can be executed with a single script, `updateFillList.sh`, which gets the new fill list and sends it to UCSB.
+The entire process can be executed with a single script which gets the new fill list and sends it to UCSB:
+
+```
+    ./updateFillList.sh
+```
